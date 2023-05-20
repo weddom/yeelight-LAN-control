@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".device.DeviceFragment">
+
+    <TextView
+        android:id="@+id/textView_roomFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No rooms available."
+        android:layout_centerInParent="true" />
+
+        <ListView
+            android:id="@+id/room_list"
+            android:layout_gravity="bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="45.0dip"
+            android:dividerHeight="0dp"
+            android:divider="@null"/>
+</RelativeLayout>

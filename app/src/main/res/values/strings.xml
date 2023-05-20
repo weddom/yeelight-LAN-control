@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">YeelightControl</string>
+    <string name="offline">Offline</string>
+    <string name="online">Online</string>
+    <string name="wifi_warning">The application requires access to a Wi-Fi network. Do you want to turn it on?</string>
+    <string name="wifi_enabled">Wi-Fi enabled</string>
+</resources>
